@@ -2,9 +2,17 @@ using System;
 
 namespace AC.Main
 {
-    class Address
+    public class Address
     {
-        public int AddressID {get;set;}
+        public Address(){}
+
+        public Address(int addressID)
+        {
+            this.AddressID = addressID;
+        }
+
+        public int AddressID {get; private set;}
+        public int AddressType {get;set;}
         public string StreetLine1 {get;set;}
         public string StreetLine2 {get;set;}
         public string City {get;set;}

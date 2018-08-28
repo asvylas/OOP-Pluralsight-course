@@ -4,7 +4,16 @@ namespace AC.Main
 {
     public class Order
     {
-        public int CustomerID {get;set;}
+        public Order(){}
+        
+        public Order(int customerID, int orderID)
+        {
+            this.CustomerID = customerID;
+            this.OrderID = orderID;
+        }
+
+        public int CustomerID {get; private set;}
+        public int OrderID {get; private set;}
         public DateTimeOffset? OrderDate {get;set;}
         public int AddressID {get;set;}
 

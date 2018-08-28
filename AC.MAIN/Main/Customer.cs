@@ -1,15 +1,29 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace AC.Main
 {
     public class Customer
     {
+        public Customer()
+            :this(0)
+        {
+
+        }
+
+        public Customer(int customerID)
+        {
+            this.CustomerID = customerID;
+            this.AddressList = new List<Address>();
+        }
+
         public static int CustomerCounter {get;set;}
 
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string Email {get;set;}
-        public int CustomerID {get;set;}
+        public string EmailAddress {get;set;}
+        public int CustomerID {get; private set;}
+        public List<Address> AddressList {get;set;}
 
         public string fullName
         {
@@ -35,7 +49,7 @@ namespace AC.Main
             var isValid = true;
 
             if(string.IsNullOrWhiteSpace(LastName)) isValid = false;
-            if(string.IsNullOrWhiteSpace(Email)) isValid = false;
+            if(string.IsNullOrWhiteSpace(EmailAddress)) isValid = false;
 
             return isValid;
         }

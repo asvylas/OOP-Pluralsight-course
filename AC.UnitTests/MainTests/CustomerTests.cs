@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using AC.Main;
 
-namespace AC.UnitTests
+namespace AC.UnitTests.MainTests
 {
     // Arrange
     // Act
@@ -81,7 +81,7 @@ namespace AC.UnitTests
             // Arrange
             var customer = new Customer()
             {
-                Email = "james@company.com"
+                EmailAddress = "james@company.com"
             };
             // Act
             var isValid = customer.Validate();
@@ -108,7 +108,7 @@ namespace AC.UnitTests
             var customer = new Customer()
             {
                 LastName = "Cameron",
-                Email = "james@company.com"
+                EmailAddress = "james@company.com"
             };
             // Act
             var isValid = customer.Validate();
