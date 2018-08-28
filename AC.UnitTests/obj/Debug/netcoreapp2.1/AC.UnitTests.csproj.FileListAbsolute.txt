@@ -1,0 +1,17 @@
+c:\Dev\OOP Pluralsight\AC.UnitTests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\Dev\OOP Pluralsight\AC.UnitTests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+c:\Dev\OOP Pluralsight\AC.UnitTests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+c:\Dev\OOP Pluralsight\AC.UnitTests\bin\Debug\netcoreapp2.1\AC.UnitTests.deps.json
+c:\Dev\OOP Pluralsight\AC.UnitTests\bin\Debug\netcoreapp2.1\AC.UnitTests.runtimeconfig.json
+c:\Dev\OOP Pluralsight\AC.UnitTests\bin\Debug\netcoreapp2.1\AC.UnitTests.runtimeconfig.dev.json
+c:\Dev\OOP Pluralsight\AC.UnitTests\bin\Debug\netcoreapp2.1\AC.UnitTests.dll
+c:\Dev\OOP Pluralsight\AC.UnitTests\bin\Debug\netcoreapp2.1\AC.UnitTests.pdb
+c:\Dev\OOP Pluralsight\AC.UnitTests\bin\Debug\netcoreapp2.1\AC.MAIN.dll
+c:\Dev\OOP Pluralsight\AC.UnitTests\bin\Debug\netcoreapp2.1\AC.MAIN.pdb
+c:\Dev\OOP Pluralsight\AC.UnitTests\obj\Debug\netcoreapp2.1\AC.UnitTests.csprojAssemblyReference.cache
+c:\Dev\OOP Pluralsight\AC.UnitTests\obj\Debug\netcoreapp2.1\AC.UnitTests.csproj.CoreCompileInputs.cache
+c:\Dev\OOP Pluralsight\AC.UnitTests\obj\Debug\netcoreapp2.1\AC.UnitTests.AssemblyInfoInputs.cache
+c:\Dev\OOP Pluralsight\AC.UnitTests\obj\Debug\netcoreapp2.1\AC.UnitTests.AssemblyInfo.cs
+c:\Dev\OOP Pluralsight\AC.UnitTests\obj\Debug\netcoreapp2.1\AC.UnitTests.csproj.CopyComplete
+c:\Dev\OOP Pluralsight\AC.UnitTests\obj\Debug\netcoreapp2.1\AC.UnitTests.dll
+c:\Dev\OOP Pluralsight\AC.UnitTests\obj\Debug\netcoreapp2.1\AC.UnitTests.pdb
