@@ -1,6 +1,6 @@
 using System;
 using Xunit;
-using AC.MAIN;
+using AC.Main;
 
 namespace AC.UnitTests
 {
@@ -32,6 +32,7 @@ namespace AC.UnitTests
             //Assert
             Assert.Equal(c1.LastName, c2.LastName);
         }
+        
         [Fact]
         public void newGeneralIntTest()
         {

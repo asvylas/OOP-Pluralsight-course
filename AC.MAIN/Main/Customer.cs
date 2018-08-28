@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AC.MAIN
+namespace AC.Main
 {
     public class Customer
     {
