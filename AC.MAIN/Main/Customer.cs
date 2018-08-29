@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using AC.Base;
+using AC.Interfaces;
 
 namespace AC.Main
 {
-    public class Customer : EntityBase
+    public class Customer : EntityBase, ILogger
     {
         public Customer()
             :this(0)
@@ -60,5 +61,10 @@ namespace AC.Main
             return fullName;
         }
 
+        public string Log()
+        {
+            var logged = string.Empty;
+            return logged;
+        }
     }
 }

@@ -1,7 +1,7 @@
 using System;
 using AC.Base;
 
-namespace AC.Main
+namespace AC.Commons
 {
     public static class StringMaster
     {
