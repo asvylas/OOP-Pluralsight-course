@@ -1,8 +1,9 @@
 using System;
+using AC.Base;
 
 namespace AC.Main
 {
-    public class Address
+    public class Address : EntityBase
     {
         public Address(){}
 
@@ -19,5 +20,11 @@ namespace AC.Main
         public string StateProvince {get;set;}
         public string PostalCode {get;set;}
         public string Country {get;set;}
+
+        public override bool Validate()
+        {
+            var isValid = true;
+            return isValid;
+        }
     }
 }

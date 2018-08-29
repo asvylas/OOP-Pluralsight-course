@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using AC.Base;
 
 namespace AC.Main
 {
-    public class Customer
+    public class Customer : EntityBase
     {
         public Customer()
             :this(0)
@@ -44,7 +45,7 @@ namespace AC.Main
             }
         }
 
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 
@@ -52,6 +53,11 @@ namespace AC.Main
             if(string.IsNullOrWhiteSpace(EmailAddress)) isValid = false;
 
             return isValid;
+        }
+
+        public override string ToString()
+        {
+            return fullName;
         }
 
     }

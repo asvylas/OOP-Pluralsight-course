@@ -1,8 +1,9 @@
 using System;
+using AC.Base;
 
 namespace AC.Main
 {
-    public class Order
+    public class Order : EntityBase
     {
         public Order(){}
         
@@ -17,10 +18,15 @@ namespace AC.Main
         public DateTimeOffset? OrderDate {get;set;}
         public int AddressID {get;set;}
 
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
             return isValid;
+        }
+
+        public override string ToString()
+        {
+            return "CustomerID: " + CustomerID + ". AddressID: " + AddressID;
         }
     }
 }

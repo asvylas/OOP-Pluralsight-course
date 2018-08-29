@@ -21,5 +21,10 @@ namespace AC.Main
             var isValid = true;
             return isValid;
         }
+
+        public override string ToString()
+        {
+            return ProductName.InsertSpaces() + " (" + ProductID + ").";
+        }
     }
 }
